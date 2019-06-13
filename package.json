@@ -1,0 +1,32 @@
+{
+  "name": "nest-apollo-client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index",
+  "private": false,
+  "scripts": {
+    "preversion": "rm -rf dist && tsc -p tsconfig.json",
+    "version": "git add .",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "nest",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-boost": "^0.4.2",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.10.1"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.4.1"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^6.0.5",
+    "@nestjs/core": "^6.0.5"
+  }
+}
