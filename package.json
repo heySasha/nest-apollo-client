@@ -1,6 +1,6 @@
 {
   "name": "nest-apollo-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index",
@@ -19,7 +19,8 @@
   "dependencies": {
     "apollo-boost": "^0.4.2",
     "graphql": "^14.3.1",
-    "graphql-tag": "^2.10.1"
+    "graphql-tag": "^2.10.1",
+    "rxjs": "^6.5.2"
   },
   "devDependencies": {
     "@nestjs/common": "^6.0.5",
