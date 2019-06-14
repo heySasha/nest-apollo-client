@@ -1,4 +1,4 @@
-import {DynamicModule, Module} from '@nestjs/common';
+import { DynamicModule, Module } from '@nestjs/common';
 
 import {APOLLO_CLIENT_OPTIONS} from './constants/apollo-client-options.constant';
 import {ApolloClientOptions} from './interfaces/apollo-client-options.interface';
